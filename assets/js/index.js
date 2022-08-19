@@ -28,7 +28,8 @@ function getUserInfo() {
             }
             // 调用renderAvatar()渲染用户头像
             renderAvatar(res.data)
-        },
+        }
+
         // complete: function(res){
         //     // console.log(res)
         //     // complete回调函数中，可以使用responseJSON拿到服务器响应回来的数据
